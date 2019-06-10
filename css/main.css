@@ -1,0 +1,33 @@
+.layout {
+	height: 80px;
+	width: device-width;
+	background: #ffffff;
+	color: #262626;
+	font-family: Arial;
+}
+
+#logo {
+	width: 100px;
+}
+
+.primary {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.secondary{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.fa-compass {
+	font-size: 24px;
+	text-align: center;
+}
+
+#login {
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	border-color: #e6e6e6;
+}
