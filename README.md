@@ -1,2 +1,2 @@
-# H-ritage-GO
+# Heritage GO
 https://github.com/baodongle/heritage-go
