@@ -4,34 +4,57 @@
 	background: #ffffff;
 	color: #262626;
 	font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+.feed {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
 	width: 100px;
 	height: auto;
-	text-align: left;
+}
+
+.area-compass {
+  display: flex;
+  height: 40px;
+}
+
+.area-name {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .primary {
 	font-size: 18px;
 	font-weight: bold;
-	text-align: right;
 }
 
 .secondary{
 	font-size: 14px;
 	font-weight: bold;
-	text-align: right;
 }
 
 .fa-compass {
 	font-size: 24px;
-	text-align: right;
+  align-self: flex-start;
+  margin: 6px;
 }
 
 #login {
+  margin-right: 24px;
 	font-size: 14px;
 	text-align: center;
-	border-radius: 3px;
+  border-radius: 3px;
 	border-color: #e6e6e6;
+  align-self: center;
 }
