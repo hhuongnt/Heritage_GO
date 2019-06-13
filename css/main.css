@@ -57,3 +57,12 @@ header {
     border-color: #e6e6e6;
     font-weight: bold;
 }
+
+.header__center__logo {
+    width: 100px;
+}
+
+.header__center__logo:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+}
