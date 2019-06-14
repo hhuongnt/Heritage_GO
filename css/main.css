@@ -64,5 +64,5 @@ header {
 
 .header__center__logo:hover {
     transform: scale(1.1);
-    transition: 100ms;
+    transition: transform 100ms, ease-out 100ms;
 }
